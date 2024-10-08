@@ -1,1 +1,3 @@
 # Fine-tuning-Llama-2-7B-chat
+
+This repository demonstrates parameter-efficient fine-tuning (PEFT) of a **LLaMA-2 model** using **QLoRA** to achieve 4-bit precision training on limited hardware resources. The code performs supervised fine-tuning (SFT) on a **7-billion parameter model** with the **Guanaco LLaMA2** dataset, leveraging **Hugging Face’s transformers, bitsandbytes, and peft** libraries. After fine-tuning, the model is deployed locally for text generation and evaluation through an integrated pipeline, with the option to push the trained model to the **Hugging Face Hub** for easy sharing and deployment.
